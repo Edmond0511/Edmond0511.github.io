@@ -1212,6 +1212,13 @@ button[type="submit"]:hover {
 /** Width between 992px to 1199px
  *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  */
+ @media (min-width: 992px) and (max-width: 1199px) {
+    #about .div-img-bg .about-img img {
+        margin-top: 0%;
+        margin-left: 0;
+        width: 300px;
+    }
+}
 
 
 /** Width between 768px to 991px
@@ -1258,9 +1265,12 @@ button[type="submit"]:hover {
     }
     #about .div-img-bg .about-img img {
         margin-top: 0%;
-        margin-left: calc(0% - 0px);
+        width: 90%;
+        display: flex;
+        align-items: center;
     }
     #about .about-descr .p-heading {
+        margin-top: 120px;
         font-size: 20px;
     }
     #about .about-descr .separator {
@@ -1342,6 +1352,7 @@ button[type="submit"]:hover {
     }
     #about .about-descr .p-heading {
         font-size: 20px;
+        margin-top: 120px;
     }
     #about .about-descr .separator {
         max-width: 100%;
@@ -1421,6 +1432,7 @@ button[type="submit"]:hover {
     }
     #about .about-descr .p-heading {
         font-size: 20px;
+        margin-top: 120px;
     }
     #about .about-descr .separator {
         max-width: 100%;
@@ -1496,6 +1508,7 @@ button[type="submit"]:hover {
     }
     #about .about-descr .p-heading {
         font-size: 20px;
+        margin-top: 120px;
     }
     #about .about-descr .separator {
         max-width: 100%;
@@ -1570,6 +1583,7 @@ button[type="submit"]:hover {
     }
     #about .about-descr .p-heading {
         font-size: 20px;
+        margin-top: 120px;
     }
     #about .about-descr .separator {
         max-width: 100%;
