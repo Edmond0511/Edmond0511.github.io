@@ -774,6 +774,7 @@ i {
 
 #portfolio {
     position: relative;
+    height: 200vh;
     background: #ebf2f8;
     padding-bottom: 230px;
     background-image: radial-gradient(hsla(209, 100%, 47%, 1.00) 5%, transparent 0);
