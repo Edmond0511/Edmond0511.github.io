@@ -302,7 +302,7 @@ i {
 */
 
 .mobile-nav-toggle {
-    color: #4b4a4a;
+    color: #ffffff;
     font-size: 28px;
     cursor: pointer;
     display: none;
@@ -598,8 +598,8 @@ i {
     margin-top: 0px;
     padding: 20px 30px;
     border: 15px solid;
-    border-image-slice: 1;
     border-style: solid;
+    border-image-slice: 1;
     border-image-source: linear-gradient(to left, #007991, #abe7d4);
     transform: rotate(10deg);
 }
@@ -774,12 +774,11 @@ i {
 
 #portfolio {
     position: relative;
-    height: 200vh;
+    height: calc(200vh - 50vh);
     background: #ebf2f8;
     padding-bottom: 230px;
     background-image: radial-gradient(hsla(209, 100%, 47%, 1.00) 5%, transparent 0);
     background-size: 11px 11px;
-    clip-path: circle(260vh at 50% -80vh);
 
 }
 
