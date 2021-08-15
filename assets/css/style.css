@@ -1014,6 +1014,10 @@ i {
     border: 1px solid rgba(128, 128, 128, 0.823);
     margin-top: 15px;
     }
+.form-group input:focus, textarea:focus{
+    background: #ebf2f8;
+    ;
+    }
 
 textarea {
   resize: vertical;
