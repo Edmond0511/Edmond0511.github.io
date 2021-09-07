@@ -698,13 +698,15 @@ i {
     padding: 2rem 3rem;
 }
 
-.portfolio-header h1::after {
+.perfect-salon h1::after {
     content: " | Business Website";
     display: inline;
     font-weight: 200;
     width: 100%;
     margin-top: 20px;
 }
+
+
 
 
 /*--------------------------------------------------------------
