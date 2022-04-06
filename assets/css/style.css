@@ -561,7 +561,7 @@ i {
     height: 400px;
     -o-object-fit: cover;
     object-fit: cover;
-    transform: rotate(0deg);
+    transform: rotate(-1deg);
 }
 
 #about .about-descr .p-heading {
