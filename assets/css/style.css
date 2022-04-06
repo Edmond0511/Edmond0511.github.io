@@ -556,14 +556,12 @@ i {
 
 #about .div-img-bg .about-img img {
     width: 100%;
-    box-shadow: 0px 0px 85px 0px rgba(0, 0, 0, 0.14);
     margin-top: -60px;
     margin-left: 40px;
     height: 400px;
     -o-object-fit: cover;
     object-fit: cover;
-    transform: rotate(-10deg);
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 54px 85px, rgba(0, 0, 0, 0.1) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transform: rotate(0deg);
 }
 
 #about .about-descr .p-heading {
@@ -634,8 +632,12 @@ i {
     transform: rotate(10deg);
 }
 
+.skills-block {
+    background: blue;
+    margin: 0 auto;
+}
 .skills-block span {
-    margin: 17px 0;
+    margin: 17px 10px;
     position: relative;
     font-size: 13px;
     color: #292929;
