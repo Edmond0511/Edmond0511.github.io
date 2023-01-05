@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Portfolio - LooFi</title>
+    <title>Portfolio - Planttum</title>
 
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon">
@@ -72,21 +72,39 @@
         <section id="portfolio-details" class="portfolio-details">
             <div class="px-5 portfolio-header">
                 <div class="container">
-                    <h1>LooFi</h1>
+                    <h1>Planttum</h1>
                 </div>
             </div>
 
-            <div class="portfolio-description">
+            <div class="portfolio-description mh-100">
                 <div class="container">
-                    <p> Built a Lo-Fi Music player for students to listen to whilst studying or relaxing! The playlist consists of 10 tracks compiled from <a style="color: blue; font-weight:600;" href="https://www.chosic.com/free-music/lofi/" target="_blank">chosic</a>; picked to emanate the best listening experience through its smooth transitions <br><br>Tools - HTML/CSS/JavaScript </p>
-                </div>
+                    <p>
+                        - Designed and synthesized a portable plant monitoring device that quantifiably measures the soil moisture, humidity and
+                        brightness of a plant’s surrounding environment in real-time using C <br>
+                        - Implemented an STM32 microcontroller, DHT22 humidity & temperature module, photoresistors and soil moisture sensor to
+                        interpret data from external outputs and display them accordingly on the LCD monitor<br>
+                        - Presented technical proposal and design document to the instructor and received a perfect grade</p>
+                </div> 
+            </div>
+            <div class="container d-flex align-content-center justify-content-center my-4" style="height: 560px; padding-bottom: 20px;">
+                <img style="border-radius: 15px;" src="assets/img/portfolio/IMG_4714.jpg" alt="Board">
             </div>
 
-            <div class="container">
-                <div class="gy-4 d-flex align-items-center ">
-                    <iframe src="https://edmond0511.github.io/music-player/" style="box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;  margin: 60px auto; width: 93%; height: 560px; border-radius: 20px;"></iframe>
-                </div>
 
+            <div class="container-fluid gy-5">
+                    <div class="portfolio-info">
+                        <div class="col-lg-12">
+                            <h3>Build</h3>
+                            <p>
+                                Our design is a plant monitoring device which interprets a variety of different inputs:  including sensing the temperature of the soil, knowing the humidity of the soil, and finding the brightness of the surrounding atmosphere. For instance, the design will allow the user to get the status of the plant on which the user can decide to take certain actions. These actions can include, watering the plant if the moisture is low, and moving the plant to an area that is a better environment,  depending on the recommended temperature for the plant. Along with that, the brightness sensor will allow the user to see if the plant is in an area that is appropriate for sunlight so that it can grow into a healthy plant.
+
+                                To construct and implement the design, refer to the Installation Manual and User Guide that is listed below for a detailed representation of the build process. A quick rundown of the build process: 1) Ensure proper connection between the board and laptop  2) Connect components and sensors to their appropriate pins/outlets on the Nucleo board 3) Implement functional code to STM Board to guarantee desired outputs of respective components.
+                                
+                                For the operation of the design, first connect the STM board to an outlet and ensure the power is on. Next, place the moisture sensor into the soil to measure its quality through the resistance that is received by the sensor. After, the temperature and humidity sensor will give the user output of the temperature and humidity of the air. Concerning the brightness sensor, it will give the user input about the brightness of the surrounding air. 
+                                
+                            </p>
+                        </div>
+                    </div>
             </div>
         </section>
         <!-- End Portfolio Details Section -->

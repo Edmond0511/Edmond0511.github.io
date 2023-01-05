@@ -136,12 +136,12 @@ i {
 
 .paddsection {
     padding-top: 30px;
-    padding-bottom: 140px;
+    padding-bottom: 45px;
 }
 
 .paddsections {
     padding-top: 90px;
-    padding-bottom: 90px !important;
+    padding-bottom: 1300px !important;
 }
 
 .hvr-shutter-in-horizontal::before {
@@ -510,9 +510,18 @@ i {
     margin-right: 20px;
 }
 
+.hero-content .list-social li:hover {
+    color: #314E59;
+}
+
 .hero-content .list-social li i {
     color: #fff;
     font-size: 15px;
+}
+.hero-content .list-social li i:hover {
+    color: #314E59;
+    transition: all 0.5s ease-in-out 0s;
+
 }
 
 
@@ -524,12 +533,11 @@ i {
 
 #about {
     width: 100%;
-    height: 1050px;
+    height: 110vh;
     background: #ebf2f8;
     padding-top: 25px;
     background-image: radial-gradient(hsla(209, 100%, 47%, 1.00) 5%, transparent 0);
     background-size: 11px 11px;
-    clip-path: circle(180vh at 50% -60vh);
 }
 
 #about .div-img-bg {
@@ -549,6 +557,7 @@ i {
     height: 475px;
     -o-object-fit: cover;
     object-fit: cover;
+    border-radius: 20px;
     transform: rotate(-10deg);
     box-shadow: rgb(112, 112, 112) 0px 8px 24px;
 
@@ -599,6 +608,11 @@ i {
 #skills {
     background: #f7f7f7;
     position: relative;
+    height: 120vh;
+}
+
+#skills .paddsection {
+    padding-bottom: 1000px !important;
 }
 
 
@@ -706,12 +720,11 @@ i {
 
 #portfolio {
     position: relative;
-    height: 1200px;
+    height: 0px;
     background: #ebf2f8;
     padding-bottom: 230px;
     background-image: radial-gradient(hsla(209, 100%, 47%, 1.00) 5%, transparent 0);
     background-size: 11px 11px;
-    clip-path: circle(200vh at 50% -20vh);
 }
 
 #portfolio #portfolio-flters {
@@ -756,7 +769,7 @@ i {
     width: 100%;
     overflow: visible;
     object-fit: cover;
-    height: 350px;
+
 }
 
 #portfolio .portfolio-item .portfolio-info {
@@ -910,7 +923,7 @@ i {
 }
 
 .form-group {
-    width: 65%;
+    width: 56%;
     margin-top: 20px;
     font-size: 20px;
     margin: 0 auto;
@@ -946,9 +959,9 @@ textarea {
 }
 
 button[type="submit"] {
-    width: 65%;
+    width: 56%;
     border: none;
-    margin: 0 auto;
+    margin: 25px 0 auto;
     padding: 20px;
     font-size: 20px;
     font-weight: 400;
@@ -965,6 +978,16 @@ button[type="submit"]:hover {
     background-color: #689da9fa;
 }
 
+@media (max-width: 765px) {
+    .form-group  {
+        width: 100%; 
+    }
+
+
+    button[type="submit"] {
+        width: 100%;
+    }
+}
 
 /* main content */
 
@@ -1093,7 +1116,7 @@ button[type="submit"]:hover {
         margin-top: 0%;
         margin-left: 0;
         width: 300px;
-        height: auto;
+        height: 100vh;
     }
 }
 
