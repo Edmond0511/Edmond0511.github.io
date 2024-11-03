@@ -81,7 +81,7 @@ function init() {
     particlesArray = [];
     let numberOfParticles = (canvas.height * canvas.width) / 40000; 
     for (let i = 0; i < numberOfParticles; i++) {   
-        let size = (Math.random() * 4) + 1;
+        let size = (Math.random() * 5) + 1;
         let x = (Math.random() * ((innerWidth - size * 2) - (size * 2) + size * 2));
         let y = (Math.random() * ((innerHeight - size * 2) - (size * 2) + size * 2));
         let directionX = (Math.random() * 5) - 2.5;
@@ -116,7 +116,7 @@ function connect(){
             if (distance < (canvas.width/7) * (canvas.height/7)) {
                 opacityValue = 1 - (distance/2000)
                 ctx.strokeStyle = 'rgba(255, 255, 255,0.1)'
-                ctx.lineWidth = 1;
+                ctx.lineWidth = 2;
                 ctx.beginPath();
                 ctx.moveTo(particlesArray[a].x, particlesArray[a].y);
                 ctx.lineTo(particlesArray[b].x, particlesArray[b].y);
